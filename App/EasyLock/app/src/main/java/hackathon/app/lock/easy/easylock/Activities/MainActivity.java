@@ -8,8 +8,10 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import hackathon.app.lock.easy.easylock.Fragments.MainFragment;
+import hackathon.app.lock.easy.easylock.Fragments.RegitrarseCompletoFragment;
 import hackathon.app.lock.easy.easylock.R;
 
 public class MainActivity extends AppCompatActivity {
@@ -39,6 +41,16 @@ public class MainActivity extends AppCompatActivity {
         FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
         transaction.replace(R.id.frame,mainFragment);
         transaction.commit();
+
+    }
+
+
+    public void Registrar(){
+        RegitrarseCompletoFragment regitrarseCompletoFragment = new RegitrarseCompletoFragment();
+        FragmentTransaction transaction = getSupportFragmentManager().beginTransaction();
+        transaction.replace(R.id.frame,regitrarseCompletoFragment);
+        transaction.commit();
+        //Toast.makeText(getApplicationContext(),"Hi",Toast.LENGTH_SHORT).show();
 
     }
 }
