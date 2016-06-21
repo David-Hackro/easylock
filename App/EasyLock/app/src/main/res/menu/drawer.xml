@@ -14,6 +14,7 @@
     <item
         android:id="@+id/noticias"
         android:checked="false"
+        android:icon="@mipmap/ic_user"
         android:title="Usuarios"
         >
     </item>
@@ -21,6 +22,7 @@
     <item
         android:id="@+id/radio"
         android:checked="false"
+        android:icon="@mipmap/ic_settings"
         android:title="Configuraciones"
         >
     </item>
@@ -28,6 +30,7 @@
     <item
         android:id="@+id/ajustes"
         android:checked="false"
+        android:icon="@mipmap/ic_out"
         android:title="Logout"
         >
     </item>
