@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <resources>
     <string name="app_name">EasyLock</string>
     <string name="correo">Correo</string>
@@ -11,9 +10,3 @@
     <string name="confirmar_contrase_a">Confirmar Contraseña</string>
     <string name="crear">CREAR</string>
 </resources>
-||||||| merged common ancestors
-=======
-<resources>
-    <string name="app_name">EasyLock</string>
-</resources>
->>>>>>> 5b212e360e2a2bd293500930b4ad50c4fcca3307

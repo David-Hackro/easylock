@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
@@ -96,69 +95,3 @@
 
 
 </LinearLayout>
-||||||| merged common ancestors
-=======
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical"
-    >
-
-
-    <ImageView
-        android:src="@mipmap/ic_launcher"
-        android:layout_width="150dp"
-        android:layout_height="150dp"
-        android:layout_gravity="center_horizontal"
-        />
-    
-    
-    <EditText
-        android:id="@+id/correo"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:text=""
-        android:hint="Correo"
-        android:textColorHint="@color/secondary_text"
-        />
-
-    <EditText
-        android:id="@+id/password"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginTop="20dp"
-        android:text=""
-        android:hint="Contraseña"
-        android:textColorHint="@color/secondary_text"
-        />
-
-    <Button
-        android:id="@+id/ingresar"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:text="INGRESAR"
-        android:textColor="@color/white"
-        android:background="@color/primary_dark"
-        android:layout_marginTop="30dp"
-        android:layout_gravity="center_horizontal"
-        />
-
-    <Button
-        android:id="@+id/registrarse"
-        android:text="REGISTRARSE"
-        android:layout_width="200dp"
-        android:layout_height="50dp"
-        android:layout_marginTop="15dp"
-        android:textColor="@color/white"
-        android:background="@color/primary_dark"
-        android:layout_gravity="center_horizontal"
-        />
-
-
-</LinearLayout>
->>>>>>> 5b212e360e2a2bd293500930b4ad50c4fcca3307
