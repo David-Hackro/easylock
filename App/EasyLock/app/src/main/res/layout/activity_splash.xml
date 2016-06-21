@@ -24,7 +24,8 @@
                 android:gravity="center_horizontal"
                 android:text="Easy Lock"
                 android:textStyle="bold"
-                android:textColor="@color/colorPrimary"
+                android:background="@color/dash"
+                android:textColor="@color/colorPrimaryLight"
                 android:textSize="50sp" />
             <ImageView
                 android:layout_width="240dp"

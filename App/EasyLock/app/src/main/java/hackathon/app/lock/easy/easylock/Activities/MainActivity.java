@@ -1,5 +1,7 @@
 package hackathon.app.lock.easy.easylock.Activities;
 
+import android.hardware.Sensor;
+import android.hardware.SensorManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.DrawerLayout;
@@ -13,6 +15,7 @@ import android.widget.Toast;
 import hackathon.app.lock.easy.easylock.Fragments.MainFragment;
 import hackathon.app.lock.easy.easylock.Fragments.RegitrarseCompletoFragment;
 import hackathon.app.lock.easy.easylock.R;
+import hackathon.app.lock.easy.easylock.ShakeSensor.ShakeDetector;
 
 public class MainActivity extends AppCompatActivity {
     Toolbar toolbar;
@@ -20,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     private DrawerLayout drawerLayout;
     ActionBarDrawerToggle actionBarDrawerToggle;
     TextView toolbarTitle;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
